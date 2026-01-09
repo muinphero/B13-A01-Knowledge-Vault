@@ -11,7 +11,7 @@ body {
 
 /* Container */
 .container {
-  max-width: 1600px;
+  max-width: 1360px;
   margin: 0 auto;
   padding: 0 24px;
 }
@@ -226,4 +226,35 @@ body {
   width: 20px;
   height: 20px;
   margin-top: 3px;
+}
+
+/* CTA */
+.cta {
+  background: #fafaf7;
+  text-align: center;
+  max-width: 1360px;
+  margin: 0 auto 120px;
+}
+
+.cta-box {
+  text-align: center;
+  line-height: 1.6;
+  padding: 80px 0;
+}
+
+.cta-box h2 {
+  color: #001931;
+  font-size: 2.5em;
+  margin-bottom: 16px;
+}
+
+.cta-box p {
+  color: #627382;
+  margin-bottom: 32px;
+}
+
+.cta-note {
+  display: block;
+  margin-top: 16px;
+  color: #64748b;
 }
