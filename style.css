@@ -128,7 +128,7 @@ body {
 
 /* Problems */
 .problems {
-  padding: 120px 0;
+  padding: 120px 0 0;
   text-align: center;
 }
 
@@ -168,4 +168,62 @@ body {
   background-color: #f95555;
   border-radius: 50%;
   padding: 10px;
+}
+
+.problem-card:hover {
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+}
+
+/* Solution */
+.solution {
+  padding: 120px 0;
+}
+
+.solution-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  max-width: 1360px;
+  align-items: center;
+}
+
+.solution-image img {
+  border-radius: 1px;
+  max-width: 600px;
+}
+
+.solution-content {
+  max-width: 700px;
+  text-align: left;
+  line-height: 1.6;
+}
+.solution-tag {
+  color: #30b868;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.solution-content h2 {
+  color: #001931;
+  font-size: 2.5em;
+  margin-bottom: 16px;
+}
+
+.solution-content p {
+  color: #627382;
+  margin-bottom: 24px;
+}
+
+.solution-content ul li {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 12px;
+  font-weight: 500;
+}
+
+.solution-content img {
+  width: 20px;
+  height: 20px;
+  margin-top: 3px;
 }
