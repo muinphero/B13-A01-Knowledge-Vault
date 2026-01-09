@@ -12,7 +12,7 @@ body {
 /* Container */
 .container {
   max-width: 1600px;
-  margin: auto;
+  margin: 0 auto;
   padding: 0 24px;
 }
 
@@ -49,6 +49,10 @@ body {
 /* Navbar */
 .navbar {
   background: #fff;
+}
+
+.logo {
+  margin-top: 16px 0;
 }
 
 .nav-content {
@@ -120,4 +124,48 @@ body {
   display: flex;
   justify-content: center;
   gap: 16px;
+}
+
+/* Problems */
+.problems {
+  padding: 120px 0;
+  text-align: center;
+}
+
+.problems h2 {
+  color: #001931;
+  font-size: 2.5em;
+  margin-bottom: 16px;
+}
+
+.problems h3 {
+  color: #001931;
+  margin: 16px 0;
+}
+
+.problems p {
+  color: #627382;
+  margin-bottom: 44px;
+  line-height: 1.5;
+}
+
+.problem-grid {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+.problem-card {
+  padding: 32px 24px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.problem-card img {
+  color: #fff;
+  background-color: #f95555;
+  border-radius: 50%;
+  padding: 10px;
 }
