@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #0f172a;
+}
+
+/* Container */
+.container {
+  max-width: 1600px;
+  margin: auto;
+  padding: 0 24px;
+}
+
+/* Buttons */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 16px;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.btn-primary {
+  background: #30b868;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background: #34d399;
+}
+
+.btn-outline {
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.btn-outline:hover {
+  background: #fff;
+  color: #3b9c63;
+}
+
+/* Navbar */
+.navbar {
+  background: #fff;
+}
+
+.nav-content {
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-links a {
+  margin: 0 14px;
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+}
+.nav-links a:hover {
+  color: #3b9c63;
+}
+
+/* Hero */
+.hero {
+  background: url("./assets/hero-bg.png") center/cover no-repeat;
+}
+
+.hero-overlay {
+  background: rgba(2, 24, 46, 0.25);
+  padding: 120px 0;
+}
+
+.hero-content {
+  max-width: 720px;
+  color: #fff;
+  text-align: center;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #fff;
+  color: #30b868;
+  padding: 6px 14px;
+  border-radius: 20px;
+  margin-bottom: 24px;
+  font-size: 14px;
+}
+
+.badge:hover {
+  background: #f3f4f6;
+}
+
+.hero h1 {
+  font-size: 56px;
+  line-height: 1.15;
+  margin-bottom: 24px;
+}
+
+.hero h1 span {
+  color: #30b868;
+}
+
+.hero p {
+  color: #fff;
+  line-height: 1.5;
+  margin-bottom: 32px;
+}
+
+.hero-actions {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
