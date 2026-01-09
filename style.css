@@ -181,7 +181,7 @@ body {
 
 .solution-wrapper {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   gap: 60px;
   max-width: 1360px;
   align-items: center;
@@ -257,4 +257,57 @@ body {
   display: block;
   margin-top: 16px;
   color: #64748b;
+}
+
+/* Footer */
+.footer {
+  background: #03162d;
+  color: #cbd5e1;
+  padding: 60px 0 20px;
+  color: #fafafa;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social {
+  font-size: 1.25em;
+}
+
+.icons {
+  display: flex;
+  gap: 20px;
+  padding-top: 16px;
+}
+
+.icons a {
+  color: #fafafa;
+  text-decoration: none;
+}
+
+.x a img:hover {
+  background-color: #000000;
+}
+
+.linkedin a img:hover {
+  background-color: #0a66c2;
+}
+
+.facebook a img:hover {
+  background-color: #1877f2;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #334155;
+  margin: 80px 0 30px;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px 0 30px;
+  font-size: 14px;
 }
