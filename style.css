@@ -46,8 +46,8 @@ h2 {
 }
 
 .btn-outline:hover {
-  background: #fff;
-  color: #3b9c63;
+  background: #34d399;
+  border: 1px solid #34d399;
 }
 
 /* Navbar */
@@ -146,10 +146,9 @@ h2 {
   margin: 16px 0;
 }
 
-.problems p {
-  color: #627382;
-  margin-bottom: 44px;
-  line-height: 1.5;
+.section-subtitle {
+  max-width: 720px;
+  margin: 0 auto;
 }
 
 .problem-grid {
@@ -160,7 +159,7 @@ h2 {
 }
 
 .problem-card {
-  padding: 70px 24px 24px;
+  padding: 70px 24px 40px;
   background: #fff;
   border-radius: 16px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
@@ -281,6 +280,11 @@ h2 {
   display: flex;
   gap: 20px;
   padding-top: 16px;
+}
+
+.icons div {
+  padding: 5px;
+  border-radius: 25%;
 }
 
 .icons a {
